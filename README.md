@@ -1,4 +1,4 @@
-# Lab exercises for Web Security Comp3134
-
+# Web Security Labs
+Comp3134
 
 Week 1: Security Fundamentals
