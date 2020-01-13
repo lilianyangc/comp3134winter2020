@@ -1,0 +1,12 @@
+ping 165.227.37.161
+
+Pinging 165.227.37.161 with 32 bytes of data:
+Reply from 165.227.37.161: bytes=32 time=13ms TTL=57
+Reply from 165.227.37.161: bytes=32 time=17ms TTL=57
+Reply from 165.227.37.161: bytes=32 time=16ms TTL=57
+Reply from 165.227.37.161: bytes=32 time=12ms TTL=57
+
+Ping statistics for 165.227.37.161:
+    Packets: Sent = 4, Received = 4, Lost = 0 (0% loss),
+Approximate round trip times in milli-seconds:
+    Minimum = 12ms, Maximum = 17ms, Average = 14ms

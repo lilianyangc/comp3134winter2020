@@ -1,0 +1,48 @@
+1. amazon.ca
+Checking Domain Name
+Domain Name: amazon.ca
+Top Level Domain: CA (Canada)
+
+DNS Lookup
+IP Address: 52.94.225.242
+Geolocation: US (United States), VA, Virginia, 20149 Ashburn
+
+2. bestbuy.com
+Checking Domain Name
+Domain Name: bestbuy.com
+Top Level Domain: COM (Commercial TLD)
+
+DNS Lookup
+IP Address: 23.209.52.32
+Geolocation: US (United States), MA, Massachusetts, 02142 Cambridge - Google Maps
+Reverse DNS: a23-209-52-32.deploy.static.akamaitechnologies.com
+
+3. Youtube.com
+Domain Name: youtube.com
+Top Level Domain: COM (Commercial TLD)
+
+DNS Lookup
+IP Address: 172.217.12.142
+Geolocation: US (United States), CA, California, 94043 Mountain View - Google Maps
+Reverse DNS: lga34s19-in-f14.1e100.net
+
+4. Sm Supermalls
+Checking Domain Name
+Domain Name: smsupermalls.com
+Top Level Domain: COM (Commercial TLD)
+
+DNS Lookup
+IP Address: 103.27.122.20
+Geolocation: PH (Philippines), N/A, N/A, N/A N/A - Google Maps
+Reverse DNS entry: not found
+
+5. animekisa.tv
+Checking Domain Name
+Domain Name: animekisa.tv
+Top Level Domain: TV (Tuvalu)
+
+DNS Lookup
+IP Address: 104.18.45.113
+Geolocation: US (United States), N/A, N/A, N/A N/A - Google Maps
+Reverse DNS entry: not found
+
