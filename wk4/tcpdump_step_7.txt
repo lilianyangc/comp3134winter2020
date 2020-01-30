@@ -1,0 +1,7 @@
+root@comp3134host:~# tcpdump -r 0001.pcap
+reading from file 0001.pcap, link-type EN10MB (Ethernet)
+18:26:06.548576 IP comp3134host.ssh > 198.96.84.204.16661: Flags [P.], seq 1475506076:1475506120, ack 1274371993, win 501, length 44
+18:26:06.548705 IP comp3134host.ssh > 198.96.84.204.16661: Flags [P.], seq 44:152, ack 1, win 501, length 108
+18:26:06.548792 IP comp3134host.ssh > 198.96.84.204.16661: Flags [P.], seq 152:180, ack 1, win 501, length 28
+18:26:06.551036 IP 198.96.84.204.16661 > comp3134host.ssh: Flags [.], ack 44, win 512, length 0
+18:26:06.552214 IP 198.96.84.204.16661 > comp3134host.ssh: Flags [.], ack 180, win 511, length 0

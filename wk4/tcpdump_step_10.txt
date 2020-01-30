@@ -1,0 +1,151 @@
+root@comp3134host:~# tcpdump -i eth0 port 22
+tcpdump: verbose output suppressed, use -v or -vv for full protocol decode
+listening on eth0, link-type EN10MB (Ethernet), capture size 262144 bytes
+18:30:30.544807 IP comp3134host.ssh > 198.96.84.204.16661: Flags [P.], seq 1479168956:1479169064, ack 1274374713, win 501, length 108
+18:30:30.544929 IP comp3134host.ssh > 198.96.84.204.16661: Flags [P.], seq 108:136, ack 1, win 501, length 28
+18:30:30.545082 IP comp3134host.ssh > 198.96.84.204.16661: Flags [P.], seq 136:244, ack 1, win 501, length 108
+18:30:30.545176 IP comp3134host.ssh > 198.96.84.204.16661: Flags [P.], seq 244:272, ack 1, win 501, length 28
+18:30:30.546670 IP 198.96.84.204.16661 > comp3134host.ssh: Flags [.], ack 108, win 510, length 0
+18:30:30.546909 IP 198.96.84.204.16661 > comp3134host.ssh: Flags [.], ack 272, win 510, length 0
+18:30:30.547743 IP comp3134host.ssh > 198.96.84.204.16661: Flags [P.], seq 272:444, ack 1, win 501, length 172
+18:30:30.548037 IP comp3134host.ssh > 198.96.84.204.16661: Flags [P.], seq 472:612, ack 1, win 501, length 140
+18:30:30.548290 IP comp3134host.ssh > 198.96.84.204.16661: Flags [P.], seq 640:780, ack 1, win 501, length 140
+18:30:30.548573 IP comp3134host.ssh > 198.96.84.204.16661: Flags [P.], seq 808:948, ack 1, win 501, length 140
+18:30:30.548770 IP comp3134host.ssh > 198.96.84.204.16661: Flags [P.], seq 976:1100, ack 1, win 501, length 124
+18:30:30.549404 IP 198.96.84.204.16661 > comp3134host.ssh: Flags [.], ack 444, win 509, length 0
+18:30:30.549438 IP comp3134host.ssh > 198.96.84.204.16661: Flags [P.], seq 1128:1924, ack 1, win 501, length 796
+18:30:30.549531 IP comp3134host.ssh > 198.96.84.204.16661: Flags [P.], seq 1924:1952, ack 1, win 501, length 28
+18:30:30.549603 IP 198.96.84.204.16661 > comp3134host.ssh: Flags [.], ack 612, win 508, length 0
+18:30:30.549853 IP comp3134host.ssh > 198.96.84.204.16661: Flags [P.], seq 1952:2092, ack 1, win 501, length 140
+18:30:30.549955 IP comp3134host.ssh > 198.96.84.204.16661: Flags [P.], seq 2092:2120, ack 1, win 501, length 28
+18:30:30.550082 IP comp3134host.ssh > 198.96.84.204.16661: Flags [P.], seq 2120:2244, ack 1, win 501, length 124
+18:30:30.551473 IP 198.96.84.204.16661 > comp3134host.ssh: Flags [.], ack 948, win 512, length 0
+18:30:30.551508 IP comp3134host.ssh > 198.96.84.204.16661: Flags [P.], seq 2272:3264, ack 1, win 501, length 992
+18:30:30.551542 IP 198.96.84.204.16661 > comp3134host.ssh: Flags [.], ack 1128, win 512, length 0
+18:30:30.551557 IP 198.96.84.204.16661 > comp3134host.ssh: Flags [.], ack 1924, win 509, length 0
+18:30:30.551680 IP comp3134host.ssh > 198.96.84.204.16661: Flags [P.], seq 3264:3388, ack 1, win 501, length 124
+18:30:30.551777 IP comp3134host.ssh > 198.96.84.204.16661: Flags [P.], seq 3388:3416, ack 1, win 501, length 28
+18:30:30.551902 IP comp3134host.ssh > 198.96.84.204.16661: Flags [P.], seq 3416:3556, ack 1, win 501, length 140
+18:30:30.552000 IP comp3134host.ssh > 198.96.84.204.16661: Flags [P.], seq 3556:3584, ack 1, win 501, length 28
+18:30:30.552108 IP 198.96.84.204.16661 > comp3134host.ssh: Flags [.], ack 2092, win 508, length 0
+18:30:30.552440 IP comp3134host.ssh > 198.96.84.204.16661: Flags [P.], seq 3736:3860, ack 1, win 501, length 124
+18:30:30.552650 IP comp3134host.ssh > 198.96.84.204.16661: Flags [P.], seq 3888:4028, ack 1, win 501, length 140
+18:30:30.552845 IP comp3134host.ssh > 198.96.84.204.16661: Flags [P.], seq 4056:4196, ack 1, win 501, length 140
+18:30:30.553046 IP comp3134host.ssh > 198.96.84.204.16661: Flags [P.], seq 4224:4364, ack 1, win 501, length 140
+18:30:30.553253 IP comp3134host.ssh > 198.96.84.204.16661: Flags [P.], seq 4392:4532, ack 1, win 501, length 140
+18:30:30.553496 IP comp3134host.ssh > 198.96.84.204.16661: Flags [P.], seq 4560:4684, ack 1, win 501, length 124
+18:30:30.553819 IP comp3134host.ssh > 198.96.84.204.16661: Flags [P.], seq 4712:4852, ack 1, win 501, length 140
+18:30:30.554017 IP comp3134host.ssh > 198.96.84.204.16661: Flags [P.], seq 4880:5020, ack 1, win 501, length 140
+18:30:30.554218 IP comp3134host.ssh > 198.96.84.204.16661: Flags [P.], seq 5048:5188, ack 1, win 501, length 140
+18:30:30.554342 IP comp3134host.ssh > 198.96.84.204.16661: Flags [P.], seq 5188:5328, ack 1, win 501, length 140
+18:30:30.554531 IP comp3134host.ssh > 198.96.84.204.16661: Flags [P.], seq 5328:5820, ack 1, win 501, length 492
+18:30:30.554712 IP comp3134host.ssh > 198.96.84.204.16661: Flags [P.], seq 5820:6200, ack 1, win 501, length 380
+18:30:30.554848 IP comp3134host.ssh > 198.96.84.204.16661: Flags [P.], seq 6200:6340, ack 1, win 501, length 140
+18:30:30.554983 IP comp3134host.ssh > 198.96.84.204.16661: Flags [P.], seq 6340:6480, ack 1, win 501, length 140
+18:30:30.555110 IP comp3134host.ssh > 198.96.84.204.16661: Flags [P.], seq 6480:6620, ack 1, win 501, length 140
+18:30:30.555241 IP comp3134host.ssh > 198.96.84.204.16661: Flags [P.], seq 6620:6760, ack 1, win 501, length 140
+18:30:30.555366 IP comp3134host.ssh > 198.96.84.204.16661: Flags [P.], seq 6760:6900, ack 1, win 501, length 140
+18:30:30.555497 IP comp3134host.ssh > 198.96.84.204.16661: Flags [P.], seq 6900:7040, ack 1, win 501, length 140
+18:30:30.555578 IP 198.96.84.204.16661 > comp3134host.ssh: Flags [.], ack 3888, win 512, length 0
+18:30:30.555601 IP 198.96.84.204.16661 > comp3134host.ssh: Flags [.], ack 4364, win 510, length 0
+18:30:30.555610 IP 198.96.84.204.16661 > comp3134host.ssh: Flags [.], ack 4560, win 509, length 0
+18:30:30.555616 IP 198.96.84.204.16661 > comp3134host.ssh: Flags [.], ack 4852, win 508, length 0
+18:30:30.555817 IP comp3134host.ssh > 198.96.84.204.16661: Flags [P.], seq 7040:7580, ack 1, win 501, length 540
+18:30:30.555967 IP comp3134host.ssh > 198.96.84.204.16661: Flags [P.], seq 7580:7720, ack 1, win 501, length 140
+18:30:30.556104 IP comp3134host.ssh > 198.96.84.204.16661: Flags [P.], seq 7720:7860, ack 1, win 501, length 140
+18:30:30.556239 IP comp3134host.ssh > 198.96.84.204.16661: Flags [P.], seq 7860:8000, ack 1, win 501, length 140
+18:30:30.556370 IP comp3134host.ssh > 198.96.84.204.16661: Flags [P.], seq 8000:8140, ack 1, win 501, length 140
+18:30:30.556500 IP comp3134host.ssh > 198.96.84.204.16661: Flags [P.], seq 8140:8280, ack 1, win 501, length 140
+18:30:30.556626 IP comp3134host.ssh > 198.96.84.204.16661: Flags [P.], seq 8280:8420, ack 1, win 501, length 140
+18:30:30.556759 IP comp3134host.ssh > 198.96.84.204.16661: Flags [P.], seq 8420:8560, ack 1, win 501, length 140
+18:30:30.556793 IP 198.96.84.204.16661 > comp3134host.ssh: Flags [.], ack 4880, win 508, length 0
+18:30:30.556803 IP 198.96.84.204.16661 > comp3134host.ssh: Flags [.], ack 5328, win 512, length 0
+18:30:30.556807 IP 198.96.84.204.16661 > comp3134host.ssh: Flags [.], ack 6200, win 509, length 0
+18:30:30.556996 IP comp3134host.ssh > 198.96.84.204.16661: Flags [P.], seq 8560:9004, ack 1, win 501, length 444
+18:30:30.557133 IP comp3134host.ssh > 198.96.84.204.16661: Flags [P.], seq 9004:9144, ack 1, win 501, length 140
+18:30:30.557263 IP comp3134host.ssh > 198.96.84.204.16661: Flags [P.], seq 9144:9284, ack 1, win 501, length 140
+18:30:30.557422 IP comp3134host.ssh > 198.96.84.204.16661: Flags [P.], seq 9284:9424, ack 1, win 501, length 140
+18:30:30.557597 IP comp3134host.ssh > 198.96.84.204.16661: Flags [P.], seq 9424:9564, ack 1, win 501, length 140
+18:30:30.557738 IP comp3134host.ssh > 198.96.84.204.16661: Flags [P.], seq 9564:9704, ack 1, win 501, length 140
+18:30:30.557865 IP comp3134host.ssh > 198.96.84.204.16661: Flags [P.], seq 9704:9844, ack 1, win 501, length 140
+18:30:30.557994 IP comp3134host.ssh > 198.96.84.204.16661: Flags [P.], seq 9844:9984, ack 1, win 501, length 140
+18:30:30.558115 IP comp3134host.ssh > 198.96.84.204.16661: Flags [P.], seq 9984:10124, ack 1, win 501, length 140
+18:30:30.558240 IP comp3134host.ssh > 198.96.84.204.16661: Flags [P.], seq 10124:10280, ack 1, win 501, length 156
+18:30:30.558366 IP comp3134host.ssh > 198.96.84.204.16661: Flags [P.], seq 10280:10436, ack 1, win 501, length 156
+18:30:30.558540 IP comp3134host.ssh > 198.96.84.204.16661: Flags [P.], seq 10436:10592, ack 1, win 501, length 156
+18:30:30.558662 IP 198.96.84.204.16661 > comp3134host.ssh: Flags [.], ack 7040, win 512, length 0
+18:30:30.558684 IP 198.96.84.204.16661 > comp3134host.ssh: Flags [.], ack 8280, win 508, length 0
+18:30:30.558787 IP comp3134host.ssh > 198.96.84.204.16661: Flags [P.], seq 10592:10748, ack 1, win 501, length 156
+18:30:30.558893 IP comp3134host.ssh > 198.96.84.204.16661: Flags [P.], seq 10748:10984, ack 1, win 501, length 236
+18:30:30.558988 IP comp3134host.ssh > 198.96.84.204.16661: Flags [P.], seq 10984:11140, ack 1, win 501, length 156
+18:30:30.559038 IP comp3134host.ssh > 198.96.84.204.16661: Flags [P.], seq 11140:11296, ack 1, win 501, length 156
+18:30:30.559157 IP comp3134host.ssh > 198.96.84.204.16661: Flags [P.], seq 11296:11564, ack 1, win 501, length 268
+
+18:30:31.009454 IP comp3134host.ssh > 198.96.84.204.16661: Flags [P.], seq 503012:503168, ack 57, win 501, length 156
+18:30:31.009587 IP comp3134host.ssh > 198.96.84.204.16661: Flags [P.], seq 503168:503324, ack 57, win 501, length 156
+18:30:31.009693 IP comp3134host.ssh > 198.96.84.204.16661: Flags [P.], seq 503324:503480, ack 57, win 501, length 156
+18:30:31.009823 IP comp3134host.ssh > 198.96.84.204.16661: Flags [P.], seq 503480:503636, ack 57, win 501, length 156
+18:30:31.009928 IP comp3134host.ssh > 198.96.84.204.16661: Flags [P.], seq 503636:503792, ack 57, win 501, length 156
+18:30:31.010033 IP comp3134host.ssh > 198.96.84.204.16661: Flags [P.], seq 503792:503948, ack 57, win 501, length 156
+18:30:31.010137 IP comp3134host.ssh > 198.96.84.204.16661: Flags [P.], seq 503948:504104, ack 57, win 501, length 156
+18:30:31.010164 IP 198.96.84.204.16661 > comp3134host.ssh: Flags [.], ack 500020, win 32, length 0
+18:30:31.010292 IP comp3134host.ssh > 198.96.84.204.16661: Flags [P.], seq 504104:504356, ack 57, win 501, length 252
+18:30:31.010404 IP comp3134host.ssh > 198.96.84.204.16661: Flags [P.], seq 504356:504512, ack 57, win 501, length 156
+18:30:31.010536 IP comp3134host.ssh > 198.96.84.204.16661: Flags [P.], seq 504512:504668, ack 57, win 501, length 156
+18:30:31.010686 IP 198.96.84.204.16661 > comp3134host.ssh: Flags [.], ack 500740, win 29, length 0
+18:30:31.010707 IP 198.96.84.204.16661 > comp3134host.ssh: Flags [.], ack 501832, win 25, length 0
+18:30:31.010815 IP comp3134host.ssh > 198.96.84.204.16661: Flags [P.], seq 504668:504824, ack 57, win 501, length 156
+18:30:31.010923 IP comp3134host.ssh > 198.96.84.204.16661: Flags [P.], seq 504824:505060, ack 57, win 501, length 236
+18:30:31.011021 IP comp3134host.ssh > 198.96.84.204.16661: Flags [P.], seq 505060:505216, ack 57, win 501, length 156
+18:30:31.011147 IP comp3134host.ssh > 198.96.84.204.16661: Flags [P.], seq 505216:505372, ack 57, win 501, length 156
+18:30:31.011211 IP 198.96.84.204.16661 > comp3134host.ssh: Flags [.], ack 501988, win 24, length 0
+18:30:31.011344 IP comp3134host.ssh > 198.96.84.204.16661: Flags [P.], seq 505372:505528, ack 57, win 501, length 156
+18:30:31.011408 IP comp3134host.ssh > 198.96.84.204.16661: Flags [P.], seq 505528:505780, ack 57, win 501, length 252
+18:30:31.011581 IP comp3134host.ssh > 198.96.84.204.16661: Flags [P.], seq 505780:506048, ack 57, win 501, length 268
+18:30:31.011700 IP comp3134host.ssh > 198.96.84.204.16661: Flags [P.], seq 506048:506204, ack 57, win 501, length 156
+18:30:31.011803 IP comp3134host.ssh > 198.96.84.204.16661: Flags [P.], seq 506204:506360, ack 57, win 501, length 156
+18:30:31.011907 IP comp3134host.ssh > 198.96.84.204.16661: Flags [P.], seq 506360:506516, ack 57, win 501, length 156
+18:30:31.012009 IP comp3134host.ssh > 198.96.84.204.16661: Flags [P.], seq 506516:506672, ack 57, win 501, length 156
+18:30:31.012111 IP comp3134host.ssh > 198.96.84.204.16661: Flags [P.], seq 506672:506828, ack 57, win 501, length 156
+18:30:31.012214 IP comp3134host.ssh > 198.96.84.204.16661: Flags [P.], seq 506828:506984, ack 57, win 501, length 156
+18:30:31.012316 IP comp3134host.ssh > 198.96.84.204.16661: Flags [P.], seq 506984:507140, ack 57, win 501, length 156
+18:30:31.012419 IP comp3134host.ssh > 198.96.84.204.16661: Flags [P.], seq 507140:507296, ack 57, win 501, length 156
+18:30:31.012521 IP comp3134host.ssh > 198.96.84.204.16661: Flags [P.], seq 507296:507452, ack 57, win 501, length 156
+18:30:31.012623 IP comp3134host.ssh > 198.96.84.204.16661: Flags [P.], seq 507452:507608, ack 57, win 501, length 156
+18:30:31.012725 IP comp3134host.ssh > 198.96.84.204.16661: Flags [P.], seq 507608:507764, ack 57, win 501, length 156
+18:30:31.012827 IP comp3134host.ssh > 198.96.84.204.16661: Flags [P.], seq 507764:507920, ack 57, win 501, length 156
+18:30:31.012929 IP comp3134host.ssh > 198.96.84.204.16661: Flags [P.], seq 507920:508076, ack 57, win 501, length 156
+18:30:31.013177 IP 198.96.84.204.16661 > comp3134host.ssh: Flags [.], ack 502856, win 21, length 0
+18:30:31.013207 IP comp3134host.ssh > 198.96.84.204.16661: Flags [P.], seq 508076:508232, ack 57, win 501, length 156
+18:30:31.013369 IP 198.96.84.204.16661 > comp3134host.ssh: Flags [.], ack 503324, win 19, length 0
+18:30:31.013396 IP 198.96.84.204.16661 > comp3134host.ssh: Flags [.], ack 504104, win 16, length 0
+18:30:31.013404 IP 198.96.84.204.16661 > comp3134host.ssh: Flags [.], ack 504356, win 15, length 0
+18:30:31.013409 IP 198.96.84.204.16661 > comp3134host.ssh: Flags [.], ack 504824, win 13, length 0
+18:30:31.013496 IP 198.96.84.204.16661 > comp3134host.ssh: Flags [.], ack 505780, win 9, length 0
+18:30:31.013681 IP 198.96.84.204.16661 > comp3134host.ssh: Flags [.], ack 506204, win 8, length 0
+18:30:31.015826 IP 198.96.84.204.16661 > comp3134host.ssh: Flags [.], ack 506828, win 5, length 0
+18:30:31.016199 IP 198.96.84.204.16661 > comp3134host.ssh: Flags [.], ack 507452, win 3, length 0
+18:30:31.016371 IP 198.96.84.204.16661 > comp3134host.ssh: Flags [.], ack 508232, win 0, length 0
+18:30:31.158769 IP 198.96.84.204.16661 > comp3134host.ssh: Flags [.], ack 508232, win 13, length 0
+18:30:31.158840 IP comp3134host.ssh > 198.96.84.204.16661: Flags [P.], seq 508232:509540, ack 57, win 501, length 1308
+18:30:31.159134 IP comp3134host.ssh > 198.96.84.204.16661: Flags [P.], seq 509540:509792, ack 57, win 501, length 252
+18:30:31.159262 IP comp3134host.ssh > 198.96.84.204.16661: Flags [P.], seq 509792:509948, ack 57, win 501, length 156
+18:30:31.159375 IP comp3134host.ssh > 198.96.84.204.16661: Flags [P.], seq 509948:510104, ack 57, win 501, length 156
+18:30:31.159483 IP comp3134host.ssh > 198.96.84.204.16661: Flags [P.], seq 510104:510260, ack 57, win 501, length 156
+18:30:31.159591 IP comp3134host.ssh > 198.96.84.204.16661: Flags [P.], seq 510260:510416, ack 57, win 501, length 156
+18:30:31.159696 IP comp3134host.ssh > 198.96.84.204.16661: Flags [P.], seq 510416:510572, ack 57, win 501, length 156
+18:30:31.159805 IP comp3134host.ssh > 198.96.84.204.16661: Flags [P.], seq 510572:510728, ack 57, win 501, length 156
+18:30:31.159955 IP comp3134host.ssh > 198.96.84.204.16661: Flags [P.], seq 510728:510884, ack 57, win 501, length 156
+18:30:31.160087 IP comp3134host.ssh > 198.96.84.204.16661: Flags [P.], seq 510884:511040, ack 57, win 501, length 156
+18:30:31.160195 IP comp3134host.ssh > 198.96.84.204.16661: Flags [P.], seq 511040:511196, ack 57, win 501, length 156
+18:30:31.160309 IP comp3134host.ssh > 198.96.84.204.16661: Flags [P.], seq 511196:511352, ack 57, win 501, length 156
+18:30:31.160411 IP comp3134host.ssh > 198.96.84.204.16661: Flags [P.], seq 511352:511508, ack 57, win 501, length 156
+18:30:31.160575 IP 198.96.84.204.16661 > comp3134host.ssh: Flags [.], ack 509540, win 8, length 0
+18:30:31.160728 IP 198.96.84.204.16661 > comp3134host.ssh: Flags [.], ack 509948, win 6, length 0
+18:30:31.161842 IP 198.96.84.204.16661 > comp3134host.ssh: Flags [.], ack 510260, win 5, length 0
+18:30:31.161943 IP 198.96.84.204.16661 > comp3134host.ssh: Flags [.], ack 510572, win 4, length 0
+18:30:31.161959 IP 198.96.84.204.16661 > comp3134host.ssh: Flags [.], ack 511040, win 2, length 0
+18:30:31.162137 IP 198.96.84.204.16661 > comp3134host.ssh: Flags [.], ack 511352, win 1, length 0
+18:30:31.162752 IP 198.96.84.204.16661 > comp3134host.ssh: Flags [.], ack 511508, win 0, length 0
+^C18:30:31.169624 IP comp3134host.ssh > 222.186.31.135.63858: Flags [S.], seq 1131513401, ack 1253133053, win 65160, options [mss 1460,sackOK,TS val 1388984736 ecr 4861963,nop,wscale 7], length 0
+
