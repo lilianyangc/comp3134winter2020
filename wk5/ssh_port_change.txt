@@ -1,0 +1,5 @@
+6) Restart the sshd service
+	sudo reset
+
+7)Changing port for ssh
+	ssh root@165.227.37.161 -p 2222
