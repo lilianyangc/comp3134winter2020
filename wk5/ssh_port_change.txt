@@ -1,5 +1,11 @@
-6) Restart the sshd service
-	sudo reset
+5) add to firewall:
+	ufw allow 2222/tcp
+
+5.b) delete from firewall:
+	ufw delete 2222/tcp
+
+6) Restart the ssh service
+	service sshd restart
 
 7)Changing port for ssh
 	ssh root@165.227.37.161 -p 2222
