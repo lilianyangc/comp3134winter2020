@@ -1,0 +1,5 @@
+What is the issue you can see on the browser?
+>The user can traverse through the directory from the user address bar get request.
+
+Sensitive information given:
+>The user can get the list of files and traverse through your directory to get sensitive information such as passwords and etc.

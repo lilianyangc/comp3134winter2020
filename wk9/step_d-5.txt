@@ -1,0 +1,5 @@
+Issue:
+>User can send request data from the address bar by placing hex codes as values.
+
+What sensitive information is given by this page:
+>User can use this to traverse through your server directory to inject or get sensitive information. You must also then sanitize your request with hex codes toher than . or / as well.

