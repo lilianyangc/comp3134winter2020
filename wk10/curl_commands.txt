@@ -1,0 +1,20 @@
+D. HTTP Requests Using CURL To execute an HTTP request, use the built-in tool named curl
+Manual & Useful Examples A manual of curl can be found here: https://helpmanual.io/help/curl/ Useful CURL examples can be found here: https://flaviocopes.com/http-curl/#perform-an-http-get-request
+
+State the commands:
+1) Send a GET request to dictionary.com to search for the word “curl” 
+curl -G https://www.dictionary.com/browse/curl
+
+2) Send a GET request to dictionary.com to search for the word “curlxyz”
+curl -G https://www.dictionary.com/browse/curlxyz
+
+3) Send a GET request to {Your droplet IP}/sending_info_to_app_1.php to submit the query “helloworld”
+curl -G http://165.227.37.161/sending_info_to_app_1.php?q=helloworld
+
+
+4) Send a GET request to {Your droplet IP}/sending_info_to_app_1.php to submit the query “<script>document.write(‘overwrite_everything’)</script>”
+curl -G http://165.227.37.161/sending_info_to_app_1.php?q="<script>document.write(‘overwrite_everything’)</script>"
+
+5) Send a GET request to {Your droplet IP}/sending_info_to_app_2.php to submit the query “<script>document.write(‘overwrite_everything’)</script>”
+
+curl -G http://165.227.37.161/sending_info_to_app_2.php?q="<script>document.write(‘overwrite_everything’)</script>"

@@ -1,0 +1,16 @@
+C. Sending Information to Application
+
+1) Navigate to the form and type a valid English word. Write your observations
+> The page sends you to a page with the valid queried word information.
+
+2) Navigate to the URL and type an invalid English word after the `/browse/` section of the URL. Write your observations
+> It still stakes the parameter value and sends you to a 'No results founds page for your 'word''.
+
+
+3) Navigate to the form and type the following text: <script>alert(%27hello%27)</script> Write your observations.
+> The form took the value of the search box, and returned a search result of the script. 
+When I checked the source, the script tag was running as an html entity.
+
+
+4) Navigate to the URL and type the following text: <script>alert(%27hello%27)</script> after the `term=` section of the URL. Write your observations.
+>The script that was placed in the url after the 'term=', sent me to a new page with the search result of the script. Therefor this shows that a script can be added to the url can also be used to get a result.
