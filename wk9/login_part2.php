@@ -3,7 +3,6 @@ $passwords = array("123456","123456789","qwerty","password","111111","12345678",
 $password = isset($_POST['password'])? $_POST['password']: '';
 $name = $_POST['custName'];
 
-echo $_POST['password'];
 echo "<br>";
 if (in_array($password, $passwords)){
         echo "Welcome back " . $name . " to your portal!";
