@@ -4,7 +4,7 @@ C. Sending Information to Application
 > The page sends you to a page with the valid queried word information.
 
 2) Navigate to the URL and type an invalid English word after the `/browse/` section of the URL. Write your observations
-> It still stakes the parameter value and sends you to a 'No results founds page for your 'word''.
+> It still takes the parameter value and sends you to a 'No results founds page for your invalid'word''.
 
 
 3) Navigate to the form and type the following text: <script>alert(%27hello%27)</script> Write your observations.
