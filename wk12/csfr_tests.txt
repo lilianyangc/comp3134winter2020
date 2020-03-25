@@ -1,0 +1,5 @@
+When I first ran csfr_form.php, it successfully logged in to the redirected page.
+I think it is because we placed a hidden variable with the confirm value to be
+compared to the session. The hidden value acted as comparison value for the session
+
+When the csfr.html is ran alone, it won't log in. This is because I doesnt have a php session variable.

@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<h1>Reflected XSS Scenario</h1><br />
+<h2>Please enter credentials to login</h2>
+<form method='post' onsubmit="myFunction()">
+<label>User text</label>
+<input type='text' name='password' id='myText'>
+<br />
+<input type='submit' name='submit'>
+</form>
+
+<div></div>
+
+<script>
+function myFunction() {
+ var x = document.getElementById("myText").value;
+ console.log(x);
+
+document.getElementsByTagName('div')[0].innerHTML = x;
+event.preventDefault();
+
+}
+
+</script>
+
+
+</body>
+</html>

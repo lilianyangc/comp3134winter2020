@@ -1,0 +1,3 @@
+I found that the contents of the txt file ran because it was inside a script tag.
+
+This could be a problem because malscripts can be injected and could run.
