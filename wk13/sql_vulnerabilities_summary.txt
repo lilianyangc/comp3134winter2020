@@ -1,0 +1,12 @@
+1.Using the page getusers_1.php, type the following value into the form: Ben
+
+Result: There was no Ben found. AS expected since Ben has active value of '0'. It shouldn't go out.
+
+
+2) Using the page getusers_1.php, type the following value into the form: Ben'--
+
+Result: No result was found. I would not show up ben since it doesnt have the exact value and Ben is still has a value active with 0.
+
+3) Using the page getusers_1.php, type the following value into the form:Ben’ or 1=1 
+
+Result: Still no Ben output.
