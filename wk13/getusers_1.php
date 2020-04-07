@@ -21,7 +21,7 @@ echo "</form>";
 if($_GET['submitBtn']){
 
 
-	$sql = "SELECT * FROM users where (active LIKE '%$text%' OR email like '%$text%' OR firstname like '%$text%' OR lastname like '%$text%' OR username like '%$text%') AND active = '1'";
+	$sql = "SELECT * FROM users where (firstname like '%$text%') AND active = '1'";
 
 	$result = $conn->query($sql);
 
